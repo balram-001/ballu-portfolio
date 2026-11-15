@@ -44,11 +44,10 @@ export default function App() {
             </p>
 
             <p>
-              Right now, I'm working on a CRM Handoff Assistant
-              — a product concept designed to help B2B sales
-              teams handle incoming leads, find the right
-              existing accounts and make better ownership
-              decisions across their CRM systems.
+              Right now, I'm working on Astra OS — a privacy-first
+              desktop automation assistant designed to help developers
+              and operations teams move work across approved apps,
+              screens and browser tabs with simple commands.
             </p>
 
             <p>
@@ -75,39 +74,38 @@ export default function App() {
           <span className="status">MVP IN DEVELOPMENT</span>
         </div>
 
-        <h2>CRM Handoff Assistant</h2>
+        <h2>Astra OS</h2>
 
         <p className="section-intro">
-          A CRM operations control layer that helps B2B sales
-          teams connect incoming leads to the correct accounts,
-          resolve ownership conflicts and manage lead handoffs
-          with greater visibility and control.
+          A zero-trust, cross-screen live desktop automation engine
+          that helps developers and enterprise teams complete work
+          across approved applications with visibility, control and
+          privacy by default.
         </p>
 
         <div className="project-overview">
           <div>
             <h3>The problem I'm solving</h3>
             <p>
-              When a new lead enters HubSpot, the company may
-              already exist in Salesforce under a different name.
-              The account may have an existing owner, an open
-              opportunity or specific territory rules.
+              Developers and operations teams lose hours every day
+              switching between browser tabs, spreadsheets, local tools
+              and enterprise apps to copy data, fix UI issues and fill
+              repetitive forms.
             </p>
             <p>
-              If the lead gets attached to the wrong account,
-              it can reach the wrong salesperson, delay follow-up
-              and create duplicate records. Sales teams often
-              resolve these issues through manual CRM checks,
-              spreadsheets and internal messages.
+              Most AI assistants are limited to the IDE or a single app,
+              while OS-level automation creates valid privacy concerns.
+              Astra OS lets users connect only the exact windows and tabs
+              needed for a task, then forgets that context after execution.
             </p>
           </div>
 
           <div className="problem-flow">
-            <span>New lead received</span>
+            <span>Work spread across apps</span>
             <span className="flow-arrow">↓</span>
-            <span>Wrong account or owner</span>
+            <span>Manual switching and copy-paste</span>
             <span className="flow-arrow">↓</span>
-            <span>Delayed sales follow-up</span>
+            <span>Slow, error-prone execution</span>
           </div>
         </div>
 
@@ -116,39 +114,37 @@ export default function App() {
           <h3>What I'm building right now</h3>
           <p>
             My MVP focuses on one complete workflow:
-            HubSpot lead → Salesforce account match →
-            owner recommendation → human approval.
+            approve windows → enter a command →
+            review the proposed action → execute safely.
           </p>
         </div>
 
         <div className="feature-grid">
           <article className="feature">
             <span className="feature-number">01</span>
-            <h4>Lead inbox</h4>
+            <h4>Command widget</h4>
             <p>
-              View incoming leads with their name, email,
-              company and domain. Select a lead to review
-              its handoff.
+              Use a lightweight desktop widget to trigger workflows
+              with inline commands such as /fix, /sync and /fill.
             </p>
           </article>
 
           <article className="feature">
             <span className="feature-number">02</span>
-            <h4>Account matching</h4>
+            <h4>Approved context</h4>
             <p>
-              Compare company domains and names against
-              existing Salesforce accounts. Show possible
-              matches and explain why they look related.
+              Connect only the specific app windows, browser tabs
+              or URLs needed for a workflow; everything else
+              stays inaccessible.
             </p>
           </article>
 
           <article className="feature">
             <span className="feature-number">03</span>
-            <h4>Ownership recommendation</h4>
+            <h4>Cross-screen actions</h4>
             <p>
-              Identify the current account owner and
-              recommend the salesperson who should
-              receive the lead.
+              Read permitted context from one screen and carry out
+              a related action in another approved application.
             </p>
           </article>
 
@@ -156,29 +152,26 @@ export default function App() {
             <span className="feature-number">04</span>
             <h4>Human approval</h4>
             <p>
-              Allow the user to approve a recommendation
-              or send an uncertain case for manual review
-              instead of silently changing CRM records.
+              Show the planned action for review before execution,
+              so users remain in control of every automation.
             </p>
           </article>
 
           <article className="feature">
             <span className="feature-number">05</span>
-            <h4>Handoff tracking</h4>
+            <h4>Zero-trust privacy</h4>
             <p>
-              Track whether a lead has been reviewed,
-              routed successfully or sent for manual
-              review. Keep an activity history.
+              Stay blind by default, capture context only on command,
+              and clear volatile visual data from memory after use.
             </p>
           </article>
 
           <article className="feature">
             <span className="feature-number">06</span>
-            <h4>Follow-up workflow</h4>
+            <h4>Coordinate-safe execution</h4>
             <p>
-              Design the approved handoff to create a
-              follow-up task for the assigned salesperson,
-              with a due time and related account.
+              Restrict mouse and keyboard actions to approved windows,
+              preventing automations from reaching unrelated apps.
             </p>
           </article>
         </div>
@@ -186,15 +179,15 @@ export default function App() {
         <div className="workflow">
           <span className="section-label">MVP WORKFLOW</span>
           <div className="workflow-steps">
-            <span>HubSpot lead</span>
+            <span>Approve windows</span>
             <b>→</b>
-            <span>Account match</span>
+            <span>Enter /fix, /sync or /fill</span>
             <b>→</b>
-            <span>Owner review</span>
+            <span>Review action</span>
             <b>→</b>
-            <span>Approval</span>
+            <span>Execute safely</span>
             <b>→</b>
-            <span>Salesforce handoff</span>
+            <span>Forget context</span>
           </div>
         </div>
       </section>
@@ -208,10 +201,10 @@ export default function App() {
         <h2>Where the product is going</h2>
 
         <p className="section-intro">
-          The long-term vision is to build a complete CRM
-          Handoff Control Layer that can detect, explain
-          and help resolve problems between connected
-          sales systems.
+          The long-term vision is to make trustworthy desktop
+          automation feel as natural as typing a command, while
+          keeping every app connection, action and piece of
+          on-screen context under the user's control.
         </p>
 
         <div className="roadmap">
@@ -223,9 +216,9 @@ export default function App() {
             <div>
               <h3>Working MVP</h3>
               <p>
-                Build the lead review interface, account
-                matching, owner recommendations, human
-                approval and activity tracking.
+                Build the desktop command widget, approved-window
+                connection flow, action review and secure execution
+                for core developer and operations workflows.
               </p>
             </div>
           </article>
@@ -236,11 +229,10 @@ export default function App() {
               <span>Beta</span>
             </div>
             <div>
-              <h3>Real CRM integrations</h3>
+              <h3>Cross-app connections</h3>
               <p>
-                Connect HubSpot and Salesforce using
-                authorized integrations. Fetch real leads,
-                accounts, contacts, users and opportunities.
+                Add approved browser, IDE, spreadsheet and enterprise
+                app connections with granular tab and URL isolation.
               </p>
             </div>
           </article>
@@ -251,11 +243,10 @@ export default function App() {
               <span>Beta</span>
             </div>
             <div>
-              <h3>Routing and automation</h3>
+              <h3>Workflow automation</h3>
               <p>
-                Apply configurable routing rules, assign
-                the correct owner, update approved CRM
-                records and create follow-up tasks.
+                Support reliable /fix, /sync and /fill workflows that
+                move data and complete actions across connected screens.
               </p>
             </div>
           </article>
@@ -266,12 +257,10 @@ export default function App() {
               <span>Future</span>
             </div>
             <div>
-              <h3>Conflict control center</h3>
+              <h3>Trust control center</h3>
               <p>
-                Detect duplicate accounts, conflicting
-                ownership, sync failures and routing
-                exceptions. Add an exception inbox,
-                SLA escalation and audit logs.
+                Add access controls, blackout masking, secure exception
+                handling and clear audit visibility for enterprise teams.
               </p>
             </div>
           </article>
@@ -284,10 +273,8 @@ export default function App() {
             <div>
               <h3>Intelligent operations</h3>
               <p>
-                Add explainable matching, routing
-                recommendations, dry-run testing,
-                analytics and suggestions based on
-                previous human corrections.
+                Add explainable automation plans, dry-run testing,
+                analytics and suggestions based on human corrections.
               </p>
             </div>
           </article>
@@ -310,7 +297,7 @@ export default function App() {
           <span>JavaScript</span>
           <span>Product Thinking</span>
           <span>UI Development</span>
-          <span>CRM Workflows</span>
+          <span>Desktop Automation</span>
         </div>
       </section>
 
@@ -319,7 +306,7 @@ export default function App() {
         <h2>Have an idea or feedback?</h2>
         <p>
           I'm open to connecting with people interested
-          in product building, software and CRM workflows.
+          in product building, software and desktop automation.
         </p>
         <a
           className="email-link"

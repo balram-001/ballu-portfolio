@@ -5,7 +5,7 @@ export default function App() {
   return (
     <main className="portfolio">
       <nav className="navbar">
-        <a href="#" className="logo">Ballu<span>.</span></a>
+        <a href="#" className="logo">Balram<span>.</span></a>
         <div className="nav-links">
           <a href="#about">About</a>
           <a href="#project">Project</a>
@@ -20,7 +20,7 @@ export default function App() {
             <div className="photo-wrap">
               <img
                 src="/profile.jpeg"
-                alt="Ballu"
+                alt="Balram"
                 className="profile-photo"
               />
             </div>
@@ -30,7 +30,7 @@ export default function App() {
             </span>
 
             <h1>
-              Hey, I'm Ballu.
+              Hey, I'm Balram.
               <br />
               <span>I build ideas into products.</span>
             </h1>
@@ -317,7 +317,7 @@ export default function App() {
       </section>
 
       <footer className="footer">
-        <span>© 2026 Ballu</span>
+        <span>© 2026 Balram</span>
         <span>Designed and built with React</span>
       </footer>
     </main>
